@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="icon_animator_duration">2000</integer>
+    <integer name="icon_animator_from">0</integer>
+    <integer name="icon_animator_to">360</integer>
+</resources>

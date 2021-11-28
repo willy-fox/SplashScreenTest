@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. MaterialComponents.DayNight.DarkActionBar-->
+    <style name="Theme.AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.SplashTheme" parent="Theme.SplashScreen">
+        <!--背景色-->
+        <item name="windowSplashScreenBackground">@color/purple_500</item>
+        <!--设置icon图标-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_svg_animation</item>
+        <item name="windowSplashScreenAnimationDuration">@integer/icon_animator_duration</item>
+        <item name="postSplashScreenTheme">@style/Theme.AppTheme</item>
+    </style>
+    <style name="Theme.BaseSplashTheme" parent="Theme.SplashScreen">
+        <!--适配低版本启动画面-->
+        <item name="android:windowBackground">@drawable/ic_launcher_background</item>
+    </style>
+</resources>

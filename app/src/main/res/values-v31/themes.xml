@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SplashTheme" parent="Theme.SplashScreen">
+        <!--背景色-->
+        <item name="windowSplashScreenBackground">@color/purple_500</item>
+        <!--设置icon图标-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_svg_animation</item>
+        <!--设置底部图标-->
+<!--        <item name="android:windowSplashScreenBrandingImage"></item>-->
+        <item name="windowSplashScreenAnimationDuration">@integer/icon_animator_duration</item>
+        <item name="postSplashScreenTheme">@style/Theme.AppTheme</item>
+    </style>
+</resources>

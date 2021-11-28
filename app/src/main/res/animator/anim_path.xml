@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/icon_animator_duration"
+    android:propertyName="rotation"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:valueFrom="@integer/icon_animator_from"
+    android:valueTo="@integer/icon_animator_to"
+    android:valueType="floatType"
+    >
+
+</objectAnimator>
